@@ -1,0 +1,61 @@
+/*
+Unausgefüllt Framework
+A minimal framework to help small developers with the tedious stuff in CSS.
+The style is random but mostly cadetblue, whitesmoke, and yellow with some coral mixed in here and their.
+*/
+
+html, body {
+    margin: 0;
+    padding: 0;
+    line-height: 1;
+}
+
+iframe {
+    border: 0;
+}
+
+ul, li {
+    list-style: none;
+}
+
+.navbarLinks a:link, a:visited, a:hover {
+    color: whitesmoke;
+    text-decoration: none;
+}
+
+a {
+    text-emphasis: none;
+    text-decoration: none;
+}
+
+.a-style1Blue {
+    text-decoration: none;
+    color: cadetblue;
+} 
+
+.a-styleCoral {
+    text-decoration: none;
+    color: coral;
+}
+
+.a-styleYellow {
+    text-decoration: none;
+    color: yellow;
+}
+
+.wordsCentered {
+    position: relative; 
+    margin: 0 auto 0 auto;
+}
+
+.navbarFixed1 {
+    display: flex;
+    flex: 1;
+    flex-wrap: wrap;
+    left: 0;
+    bottom: 0;
+    justify-content: space-around;
+    position: fixed;
+    height: 20px;
+    width: 100%
+}
