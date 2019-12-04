@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="description" content="Des Dutch Essenhaus is a family owned and operated amish style restuarnt in
+        Shreve Ohio. Come join us for good food and a unique atomosphere. Open Mon-Fri 8AM-8pm, Sat 7am-8pm, Sun
+        11am-3pm." />
+        <meta name="keywords" content="Shreve, ShreveOhio, Shreve Ohio Amish Resturant, Amish Resturant, 
+        Amish Resturant Shreve Ohio, Des Dutch Essenhaus," />
+        <meta name="viewport" content="width=device-width, inital-scale=1.0" />
+        <title>Des Dutch Essenhaus</title>
+        <link rel="canonical" href="https://www.desdutchessenhaus.com" />
+        <link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css">
+        <link rel="stylesheet" href="css/flickycss.css" />
+        <link href="https://fonts.googleapis.com/css?family=UnifrakturCook:700" rel="stylesheet" />
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
+        <script defer src="https://use.fontawesome.com/releases/v5.7.2/js/all.js" integrity="sha384-0pzryjIRos8mFBWMzSSZApWtPl/5++eIfzYmTgBBmXYdhvxPc+XcFEk+zJwDgWbP" crossorigin="anonymous"></script>
+    </head>
+<style type="text/css">
+           .body {
+            width: 100%;   
+            margin: 0;
+            padding: 0;
+            line-height: 1;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            }
+            #top {
+                display: -webkit-box;
+                display: -ms-flexbox;
+                display: flex;
+                -webkit-box-pack: justify;
+                    -ms-flex-pack: justify;
+                        justify-content: space-between;
+                background-color: #a5a170;
+
+            }
+            .nav {
+                display: -webkit-box;
+                display: -ms-flexbox;
+                display: flex;
+                -ms-flex-pack: distribute;
+                    justify-content: space-around;
+                text-decoration: none;
+                list-style: none;
+                padding: 10px;
+                margin: 0;
+                margin-bottom: 10px;
+                background-color:  #a5a170;
+                -webkit-box-flex: 1;
+                    -ms-flex: 1;
+                        flex: 1;
+                -ms-flex-wrap: wrap;
+                    flex-wrap: wrap;
+                -webkit-box-orient: horizontal;
+                -webkit-box-direction: normal;
+                    -ms-flex-direction: row;
+                        flex-direction: row;
+                
+            }
+            @media only screen and (max-width: 900px) {
+                .nav {
+                display: -webkit-box;
+                display: -ms-flexbox;
+                display: flex;
+                padding: 30px;
+                margin: 0;
+                margin-bottom: 10px;
+                text-decoration: none;
+                list-style: none;
+                background-color: #a5a170;
+                } 
+            }
+            a:link {
+                text-decoration: none;
+                color: whitesmoke;
+            }
+            a:visited {
+                text-decoration: none;
+                color:white;
+            }
+            a:hover {
+                text-decoration: underline;
+            }
+            #top {
+                display: -webkit-box;
+                display: -ms-flexbox;
+                display: flex;
+                font-family: 'UnifrakturCook', cursive; 
+                background-color: #a5a170;
+                -webkit-box-pack: center;
+                    -ms-flex-pack: center;
+                        justify-content: center;
+                padding-bottom: 0px;
+    
+            }
+            .greeting {
+                display: -webkit-box;
+                display: -ms-flexbox;
+                display: flex;
+                -webkit-box-pack: center;
+                    -ms-flex-pack: center;
+                        justify-content: center;
+                font-family: 'UnifrakturCook', cursive; 
+                background-color: #a5a170;
+                margin: 0;
+                padding: 0;
+                padding-bottom: 5px;
+            }
+            .greeting2 {
+                display: -webkit-box;
+                display: -ms-flexbox;
+                display: flex;
+                -webkit-box-pack: center;
+                    -ms-flex-pack: center;
+                        justify-content: center;
+                font-family: 'UnifrakturCook', cursive; 
+                background-color: #a5a170;
+                margin: 0;
+                padding: 0;
+                padding-bottom: 5px;
+            }
+          
+            .footer {
+                display: -webkit-box;
+                display: -ms-flexbox;
+                display: flex;
+                position: fixed;
+                margin-top: 10px;
+                left: 0;
+                bottom: 0;
+                width: 100%;
+                background-color: slategrey;
+                color: white;
+                -ms-flex-pack: distribute;
+                    justify-content: space-around;    
+            } 
+            h4 {
+                display: -webkit-box;
+                display: -ms-flexbox;
+                display: flex;
+                font-family: inherit;
+                -webkit-box-pack: center;
+                    -ms-flex-pack: center;
+                        justify-content: center;
+            }
+            .meal {
+                display: -webkit-box;
+                display: -ms-flexbox;
+                display: flex;
+                -webkit-box-pack: space-evenly;
+                    -ms-flex-pack: space-evenly;
+                        justify-content: space-evenly;
+                -ms-flex-wrap: nowrap;
+                    flex-wrap: nowrap;
+                -webkit-box-flex: 1;
+                    -ms-flex: 1;
+                        flex: 1;
+
+            }
+            @media only screen and (min-width: 1026px) {
+                .meal {
+                    padding-right: 10px;
+                    font-size: 16px;
+                }
+            }
+            .meal img {
+                border: 10px solid #966F33;
+                margin: 10px;
+            }
+            @media screen and (max-width: 900px)  {
+                .meal {
+                    display: -webkit-box;
+                    display: -ms-flexbox;
+                    display: flex;
+                    padding: 5px;
+                    -webkit-box-pack: space-evenly;
+                        -ms-flex-pack: space-evenly;
+                            justify-content: space-evenly;
+                    -ms-flex-wrap: wrap;
+                        flex-wrap: wrap;
+                    -webkit-box-flex: 1;
+                        -ms-flex: 1;
+                            flex: 1;
+                }
+            }
+            .meal a:link {
+                text-decoration: underline;
+                color: black;
+            }
+            .meal a:visited {
+                text-decoration: underline;
+                color: black;
+            }
+</style>
+<body class="body">
+    <div class="wrapper">
+    <main class="page-body"> 
+    <div id="top">
+        <h1>Des Dutch Essenhaus</h1>
+    </div>
+    <h2 class="greeting"></h2>
+    <h3 class="greeting2"></h3>    
+    <nav>
+    <ul class="nav"> 
+        <li><a href="breakfast.htm">Breakfast</a></li>
+        <li><a href="lunch.html">Lunch</a></li>
+        <li><a href="supper.html">Supper</a></li>
+        <li><a href="index.html#hours">Hours</a></li>
+        <li><a href="" onclick="alert('Please look to the footer at the bottom of the page');">Contact</a></li>
+        <li><a href="index.html#eventcard">Events</a></li>
+        <li><a href="index.html">Home</a></li>
+    </ul>      
+    </nav>
+    <h4>Lunch</h4>
+    <div class="meal">
+        <picture>
+            <img src="images/lunch.jpg" alt="shrimp" caption="Plate of fine shrimp." />
+        </picture>
+        <p><b>Sandwiches, soups, salads, and more!</b></p>
+        <p>Our burgers and sandwiches are some of the best in the county. You can get a classic Amish
+            trail bologna sandwich and the best turkey club around. Our soup and salad bar is always availble.
+        </p>
+        <p style="padding-left: 5px;">Our full menues are available to download. => 
+            <a href="pdfs/menu.pdf">Lunch Menu</a>
+            <a href="pdfs/drinksanddesserts.pdf">Drinks and Desserts</a>
+            <a href="pdfs/sundaymenu.pdf">Sunday Menu</a></p>
+    </div>
+    <p style="text-align: center; font-size: 12px; color: grey; margin-bottom: 20px;">&#169; Copyright Des Dutch Essenhaus 2019</p> 
+    <footer class="footer">
+        <a href="tel:1-330-567-2212"><i class="fas fa-phone"></i></a>
+        <a href="http://www.facebook.com"><i class="fab fa-facebook-square"></i></a>
+        <a href="mailto:desdutchessenhaus@gmail.com"><i class="fas fa-envelope-square"></i></a>
+    </footer>
+</main>
+    <script type="text/javascript">
+        let thehours = new Date().getHours(); //makes a new date object when loaded and then gets hourse
+        if (thehours >= 0 && thehours < 12) {
+        	$('.greeting').text("Guten Morgen!") && $('.greeting2').text("(Good Morning)");
+        } else if (thehours >= 12 && thehours < 20) { //Depending on the time of day will place different messege.
+        	$('.greeting').text("Guten Abend") && $('.greeting2').text("(Good Afternoon)");
+       	} else {
+        	$('.greeting').text("Gute Nacht") && $('.greeting2').text("(Good Night)");
+        }
+        </script>
+       </div>
+    </body>
+</html>               
